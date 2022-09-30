@@ -6,11 +6,3 @@ document.getElementById('myButton').onclick = function(){
 
     document.querySelector('#grundwert').innerText = prozents * prozentw / 100;
 }
-
-
-
-
-
-
-
-

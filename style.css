@@ -1,142 +1,71 @@
-
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  background: #00000f;
 }
-body{
-  font-family: 'Open Sans', sans-serif;
-}
-
-.darkmode--activated p, .darkmode--activated li {
-  color: #ffffff;
-}
-
-.button {
-  isolation: isolate;
-}
-
-.darkmode--activated .logo {
-  mix-blend-mode: difference;
-}
-
-.darkmode-layer, .darkmode-toggle {
-  z-index: 500;
-}
-
-
-.title h1{
-  display: flex;
-  justify-content: center;
-  font-size: 50px;
-  margin-top: 15px;
-  font-weight: 700;
-  color: rgb(27, 27, 27);
-}
-.title h2{
-  display: flex;
-  justify-content: center;
-  font-size: 22px;
-  margin-top: 1px;
-  color: rgb(0, 0, 0);
-}
-
-
-
 
 .main{
   display: flex;
   justify-content: center;
-  margin-top: 10%;
-}
-.container{
-  height: 70px;
-  width: 30%;
-  border-radius: 15px;
-  background: #000000;
-  opacity: 50%;
-  float: right;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
-.container input{
-  height: 40px;
-  width: 70px;
+
+.title h2{
+  color: white;
   margin: 10px;
-  border-radius: 8px;
-  background: rgb(255, 255, 255);
-  box-shadow: none;
-  border: solid 2px rgb(0, 0, 0);
-  font-size: 16px;
-  color: rgb(0, 0, 0);
+  display: flex;
   justify-content: center;
-  text-align: center;
-  font-weight: bold;
+}
+.title p{
+  color: white;
+  margin: 10px;
 }
 
-.container button{
-height: 40px;
-width: 70px;
-background: #8d8d8d;
-border-radius: 25px;
-font-weight: bolder;
-font-size: 14px;
-border: 2px solid black;
-cursor: pointer;
-}
-.container button:hover{
-background: rgb(151, 151, 151);
+.center{
+  display: flex;
+  justify-content: center;
 }
 
-.container div{
-height: 40px;
-width: 70px;
-margin: 10px;
-border-radius: 8px;
-background: rgb(255, 255, 255);
-box-shadow: none;
-border: solid 2px rgb(19, 19, 19);
-font-size: 16px;
-color: rgb(0, 0, 0);
-display: flex;
-justify-content: center;
-text-align: center;
-align-items: center;
-font-weight: bold;
+.maincontainer input{
+  display: flex;
+  margin: 10px;
+  border: 1px solid white;
+  height: 30px;
+  width: 200px;
+  color: white;
+  outline: none;
+}
+::placeholder{
+  color: rgb(206, 206, 206);
 }
 
-@media only screen and (max-width: 400px) {
-  .title h1 {
-    font-size: 30px;
-  }
-  .title h2{
-    font-size: 20px;
-  }
+
+.maincontainer h2{
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
-@media only screen and (max-width: 480px) {
-  .title h1 {
-    font-size: 45px;
-  }
-  .title h2{
-    font-size: 20px;
-  }
+.grundwert{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid white;
+  height: 30px;
+  width: 200px;
+  color: white;
 }
 
-@media only screen and (max-width: 400px) {
-  .title h1 {
-    font-size: 40px;
-  }
-  .title h2{
-    font-size: 20px;
-  }
+#myButton{
+  margin: 10px;
+  border: 1px solid white;
+  height: 30px;
+  width: 200px;
+  color: white;
+  transition: 0.2s;
+}
+#myButton:hover{
+  background: white;
+  color: black;
 }
 
-@media only screen and (max-width: 365px) {
-  .title h1 {
-    font-size: 30px;
-  }
-  .title h2{
-    font-size: 20px;
-  }
-}
