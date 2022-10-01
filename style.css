@@ -12,13 +12,14 @@
 
 .title h2{
   color: white;
-  margin: 10px;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
 }
 .title p{
   color: white;
   margin: 10px;
+  margin-bottom: 100px;
 }
 
 .center{
